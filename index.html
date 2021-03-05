@@ -14,6 +14,14 @@
 <body>
 
     <div class="container">
+    <!--div.hamburguer>div.line#line*3 < aqui foi usada a abreviação emmet para criar 1 div 
+    e dps mais 3 divs com 3 ids dentro dessa div-->
+        <div class="hamburguer">
+            <div class="line" id="line1"></div>
+            <div class="line" id="line2"></div>
+            <div class="line" id="line3"></div>
+            <span>fechar</span>
+        </div>
         <header>
             <div class="img-wrapper">
                 <img src="imagens/background.jpg" alt="">
@@ -24,7 +32,29 @@
                 <button>Saiba mais</button>
             </div>
         </header>
+
+        <!-- div.sidebar>nav>ul.menu>(li.menu-item>a.menu-link)*5 abreviaçao emmet pra estrutura abaixo-->
+        <div class="sidebar">
+            <nav>
+                <ul class="menu">
+                    <li class="menu-item"><a href="#" class="menu-link">Home</a></li>
+                    <li class="menu-item"><a href="#" class="menu-link">Quem Somos</a></li>
+                    <li class="menu-item"><a href="#" class="menu-link">Contato</a></li>
+                    <li class="menu-item"><a href="#" class="menu-link">Simulação</a></li> 
+                </ul>
+            </nav>
+            <!-- div.social-media>(a>i.fab.fa)*3 abrev. emmet para os links das redes sociais-->
+            <div class="social-media">
+                <a href="#"><i class="fab fa-whatsapp"></i></a> <!--fab fa é uma class de icones. Font Awesome-->
+                <a href="#"><i class="fab fa-facebook"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+            </div>
+        </div> 
+
     </div>
 
 </body>
+
+<script src="script.js"></script>
+
 </html>
